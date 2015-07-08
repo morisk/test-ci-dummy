@@ -27,9 +27,24 @@ class delete_ci_testUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
+
+
+  func testUI1() {
+    let app = XCUIApplication()
+    app.buttons["Set button"].tap()
+    app.staticTexts["button"].tap()
+
+    let element = app.windows.childrenMatchingType(.Unknown).elementAtIndex(0)
+    element.tap()
+    app.buttons["go next screen"].tap()
+    
+    let ndScreenStaticText = app.staticTexts["2nd screen"]
+    ndScreenStaticText.tap()
+    ndScreenStaticText.tap()
+    ndScreenStaticText.tap()
+    element.childrenMatchingType(.Unknown).elementAtIndex(0).tap()
+
+
+  }
     
 }
