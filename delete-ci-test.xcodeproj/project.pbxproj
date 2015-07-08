@@ -192,6 +192,7 @@
 				TargetAttributes = {
 					B89822FF1B4D5CB800DDADF2 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = UQB4YR6N2K;
 					};
 					B89823131B4D5CB800DDADF2 = {
 						CreatedOnToolsVersion = 7.0;
@@ -398,6 +399,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "delete-ci-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.moblin.delete-ci-test";
@@ -409,6 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "delete-ci-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.moblin.delete-ci-test";
