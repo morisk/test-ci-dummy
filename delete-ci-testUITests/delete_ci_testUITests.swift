@@ -34,15 +34,12 @@ class delete_ci_testUITests: XCTestCase {
     app.buttons["Set button"].tap()
     app.staticTexts["button"].tap()
 
-    let element = app.windows.childrenMatchingType(.Unknown).elementAtIndex(0)
-    element.tap()
     app.buttons["go next screen"].tap()
     
     let ndScreenStaticText = app.staticTexts["2nd screen"]
     ndScreenStaticText.tap()
     ndScreenStaticText.tap()
     ndScreenStaticText.tap()
-    element.childrenMatchingType(.Unknown).elementAtIndex(0).tap()
 
 
   }
